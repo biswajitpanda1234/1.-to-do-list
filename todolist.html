@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/4.0.1/remixicon.css" integrity="sha512-ZH3KB6wI5ADHaLaez5ynrzxR6lAswuNfhlXdcdhxsvOUghvf02zU1dAsOC6JrBTWbkE1WNDNs5Dcfz493fDMhA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="todolist.css">
+    <style>
+        *{
+            background-color: rgb(132, 24, 145);
+        }
+        .container{
+            margin: 100px auto 0 auto ;
+            width: 400px;
+            border: 2px solid black;
+            text-align: center;
+            height: 50px;
+            
+        }
+        input{
+            width: 200px;
+            height: 20px;
+            background-color: white;
+
+            
+        }
+        button{
+            
+            margin: 0 10px;
+            padding: 4px 15px;
+            color: white;
+        }
+        .record{
+            margin:0 auto;
+            border: 2px solid black;
+            width: 290px;
+            text-align:left;
+            margin-bottom: 5px;
+        }
+        .record i{
+            width: 200px;
+            height: 16px;
+            border: 2px solid white;
+            background-color: white;
+            color: rgb(132, 24, 145);
+            font-size: 18px;
+
+        }
+        
+    </style>
+    <title>Document</title>
+</head>
+<body id="body">
+    <div class="container">
+        <input type="text" placeholder="Enter Note" id="note" >
+        <button onclick="createRecord()">Add</button>
+    </div>
+    
+    
+    
+</body>
+<script src="todolist.js"></script>
+</html>
